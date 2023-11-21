@@ -1,0 +1,41 @@
+.MuiImageList-root {
+    overflow-y: hidden !important;
+}
+
+.container2 {
+    display: flex;
+    margin: 10px;
+    max-width: 205px;
+    height: 200px !important;
+    flex-wrap: wrap;
+    background-color: #f3f4f5;
+}
+
+.paper {
+    margin: 20px;
+    background-color: #f3f4f5;
+    padding-bottom: 40px;
+}
+
+img {
+    height: 165px;
+    width: 220px;
+    // margin: 10px 10px 0;
+    max-width: 220px;
+    // flex-grow: 1;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.votetext {
+    display: "inline-flex";
+    margin-top: 14;
+    margin-left: 20;
+    color: skyblue;
+    font-family: "Lato";
+    font-weight: 600;
+}

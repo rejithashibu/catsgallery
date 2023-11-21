@@ -1,0 +1,40 @@
+.uploadconatiner {
+    margin: 20px;
+    padding: 20px;
+}
+
+.button-submit {
+    color: black !important;
+    border: 2px solid #008CBA;
+    background-color: #87CEFA;
+}
+
+.button-submit-disabled {
+    background-color: black;
+    opacity: 0.5;
+    color: rgb(117, 109, 109) !important;
+    cursor: not-allowed;
+}
+
+.uploadbutton {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 30px;
+    transition-duration: 0.4s;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.button:hover {
+    background-color: #008CBA;
+    color: white;
+}
