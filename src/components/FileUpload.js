@@ -25,7 +25,7 @@ const FileUpload = () => {
     useEffect(() => {
         setIsLoading(isUploading);
         setDisabled(true)
-    }, [isUploading, dispatch])
+    }, [isUploading, dispatch, isLoading])
 
     const onSubmit = async () => {
         if (disabled) return;
